@@ -164,4 +164,61 @@ header {
     height: 100%;
     margin-left: 65px;
 }
+
 /* footer section */
+.contact {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+
+}
+
+.social-information {
+    padding: 130px 200px ;
+    color: white;
+}
+.social-title{
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.social-info{
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.subscribe-section {
+    color: white;
+    padding-right: 220px;
+    margin-bottom: 40px;
+}
+.subscribe-title{
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.form-email{
+    padding: 22px 85px 22px 22px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+.button{
+    background-color: #005fac;
+    padding: 23px 42px;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 5px;
+}
+.contact a{
+    text-decoration: none;
+    margin-right: 10px;
+}
