@@ -81,3 +81,87 @@ header {
 .fa-check {
     color: #16d887;
 }
+
+/* article plan-part */
+.goals-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.goals-plan {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.first-title {
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.goals {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.goals-title {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.goals-description {
+    font-size: 27px;
+    font-weight: 600;
+    color: #737272;
+}
+
+.goals-info {
+    text-align: center;
+}
+
+.mindset {
+    background-image: url("../images/gradient1.png"), url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 72%;
+    margin: 0 auto;
+    height: 330px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.mindset-title {
+    color: white;
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+.mindset-button {
+    background-color: white;
+    color: #0152ab;
+    padding: 18px 36px 18px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.mindset-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    margin-left: 65px;
+}
+/* footer section */
